@@ -1,0 +1,128 @@
+html {
+        background-color: rgba(0, 0, 0, 0.835)
+}
+
+body {
+        font-family: 'Lato', sans-serif;
+        background: #353535;
+        color: #FFF;       
+}
+
+body {
+        color: rgba(0, 0, 0, .5);
+        top: 15%;
+        background: linear-gradient(to right, rgb(5, 208, 226), rgb(5, 208, 226));
+}
+
+h1 {
+        text-align: center;
+}
+
+#flex1 {
+        margin: 1% auto;
+        display: inline-table;
+        text-align: center;
+}
+
+.myNav {
+        background: rgb(16, 151, 163)
+}
+
+
+nav.myNav {
+        background: rgb(12, 6, 22);
+}
+
+.myNav:hover .myBtn:hover {
+        color: rgb(43, 42, 42);
+        animation: fade 300ms ease-in-out 200ms 1 normal forwards;
+}
+
+.myNav:hover .myBtn:not(:hover) {
+        animation: animated 300ms ease-in-out 100ms 1 normal forwards;
+}
+
+@keyframes animated {
+        100% {
+                opacity: 0.5;
+        }
+}
+
+.btn-success {
+        margin-top: 1%;
+        justify-content: center;
+        text-align: center;
+}
+
+#clear,
+.mt-2 {
+        width: 20%;
+}
+
+.btn-success,
+.btn-outline-danger,
+.btn-outline-warning,
+.btn-outline-info,
+.btn-danger,
+#clear,
+.mt-2,
+.glow,
+.btn-outline-success,
+.btn-info {
+        animation: glowing 2000ms infinite;
+}
+
+@keyframes glowing {
+        0% {
+                box-shadow: 0 0 -10px #c4a300;
+        }
+        40% {
+                box-shadow: 0 0 40px #c4a300;
+        }
+        60% {
+                box-shadow: 0 0 40px #c4a300;
+        }
+        100% {
+                box-shadow: 0 0 -10px #c4a300;
+        }
+}
+
+#postButton,
+#clear,
+postCategorey {
+        margin-bottom: 3%;
+}
+
+tbody {
+        text-align: center;
+        
+}
+
+form>input, form>textarea {
+        margin-top: 12px;
+        box-shadow: none;
+        border-radius: 6px;
+}
+
+@media screen and (max-width:500px) {
+        body {
+                border: 2px solid #0ec891;
+        }
+        * {
+                font-size: 10px;
+        }
+}
+
+.form2, .form22 {
+        visibility: hidden;
+}
+
+input[type=color] {
+        padding: 1%;
+        background-color: #7d807f;
+        
+}
+
+#clear1 {
+        margin-top: 1%;
+}
